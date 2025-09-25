@@ -128,7 +128,16 @@ level1
 level1
 level1
 
+There are two ways of commenting
 
+# this is single line comment
+
+
+"""
+this is
+multiline
+comment
+"""
 
 
 
