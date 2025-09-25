@@ -1,0 +1,171 @@
+
+c datatypes
+------------------
+int a = 10;
+float
+char
+double
+long
+short
+
+python - objects
+------------------------
+
+
+number
+-----------
+number can be integer or decimal or octal or hexa.
+
+
+a = 10
+aval = 10
+baval = 3.43
+
+
+
+string
+-------
+string is defined in single or double or triple quotes.
+
+aname = 'python programming'
+bname = "java programming"
+cname = """unix shell programming"""
+dname = '''react programming'''
+
+
+
+list ( array in C )
+-----------------------
+list contains set of elements.
+elements can be numbers or strings or any combinatin.
+list is defined in []
+
+alist = [10,20,30,40]
+blist = ["python","java","oracle"]
+clist = [10,4.34,"python",[20,30] ,["java","oracle"] ]
+
+
+
+tuple  ( immutable  unchangeable uneditable)
+------
+tuple contains set of elements.
+elements can be numbers or strings or any combination.
+tuple is defined in ().
+*** elements inside tuple cannot be modified directly ***
+
+atup = (45,43,45)
+btup = (56,43,4.55,[10,30] )
+
+
+
+empdb = [["ram",'2-2-2',"123444232"],["raj",'3-3-3',"56343434"]] # list of lists
+empdb = [("ram",'2-2-2',"123444232"),("raj",'3-3-3',"56343434")] # list of tuples
+
+
+dictionary  ( json  hashmap  hash  associativearray  pair  item )
+-----------
+dictionary is all about keys and values.
+In dictionary .. keys are unique
+                 key can be number or string to identify the value.
+                 value can be number or string or list or tuple or dictionary.
+
+syntax :  object = { key:value , key:value , key:value }
+example:    book = {"chap1": 10 ,"chap2":20 ,"chap3": 30 }
+            data = { 1:2 ,3:4,5:6}
+            info = { 1:[10,20] ,3:[30,40]}
+            book = {"chap1": {"rita":"US"} ,"chap2":{"gita":"UK"} }
+
+
+Index
+------
+chap1   10
+chap2   20
+chap3   30
+chap4   30
+
+
+
+
+set ( venn diagrams )
+-----
+set is UNORDERED collection of UNIQUE values of SAME type.
+
+
+aset = {10,10,20,20,30,30}
+
+
+
+C
+---
+int a =10,b = 20;
+if ( a < b )  
+{
+	#
+	#
+}
+
+
+python
+------
+if cond:
+    # condition
+
+conditions
+-------------
+if         ( simple if )
+if-else    ( if  else)
+if-elif-elif-elif-else  ( if-elif block )
+
+
+level1
+level1
+level1
+if  cond:
+    level2
+    level2
+    level2
+level1
+level1
+level1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+################task1 #############
+write a program to reverse the string without using str[::-1] and list.reverse()
+
+############## task2 ############## 
+write a program to convert the string to uppercase only if its length is more than 10 characters else display the same string.
+
+sample output:
+Enter a string: python programming
+PYTHON PROGRAMMING
+
+##############  task3 ############## 
+write a program to count no. of words in a sentence.
+
+sample output:
+Enter a sentence: I love python programming language
+word count:  5
+
+############## task4 ############## 
+write a program to replace all the vowels in a string with *.
+
+Enter a string: python
+pyth*n
+
+
+##############  task5 ############## 
+write a program to count how many uppercase , lowercase letters and digits are  in  a string
+
+
+Enter a string: PyTHon108
+Uppercase letters: 3
+Lowercase letters: 3
+Digits : 3
+
+
+##############  task6 ############## 
+write a progarm to count character frequencies:
+
+
+Enter a string :  hello
+
+h : 1 time
+e : 1 time
+l : 2 times
+o : 1 time
+
+
+
+
+
