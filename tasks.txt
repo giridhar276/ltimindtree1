@@ -337,6 +337,28 @@ Offline
 Research
 
 
+
+
+##############################################
+
+write a program to read employees.txt and display all the rows line by line
+
+age,workclass,education
+39,State-gov,Bachelors
+50,Self-emp-not-inc,Bachelors
+38,Private,HS-grad,9
+53,Private,11th
+28,Private,Bachelors
+37,Private,Masters
+49,Private,9th
+##############################################
+
+write a program to read employees.txt and display all UNIQUE workclasses
+
+State-gov
+Private
+Self-emp-not-inc
+
 IT
 ---
 Infrasturcture
@@ -346,4 +368,5 @@ HR
 ---
 Recruitment
 Employee Relations
+
 
