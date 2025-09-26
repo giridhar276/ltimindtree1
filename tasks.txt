@@ -132,8 +132,218 @@ output:
 
 
 
+################################# task15 #######################
 
 
 
+colors = [
+{
+"colors": "red",
+"values": "#f00"
+},
+{
+"colors": "green",
+"values": "#0f0"
+},
+{
+"colors": "blue",
+"values": "#00f"
+},
+{
+"colors": "cyan",
+"values": "#0ff"
+},
+{
+"colors": "magenta",
+"values": "#f0f"
+},
+{
+"colors": "yellow",
+"values": "#ff0"
+},
+{
+"colors": "black",
+"values": "#000"
+}
+]
 
+write a program to display all the colors and its values.
+
+sample output :
+
+red #f00
+green #0f0
+yellow  #ff0
+magenta #f0f
+..
+..
+..
+
+
+
+################################# task16 #######################
+Write a program to display all employee names and their departments.
+
+employees = {
+    "E001": {"name": "Alice", "department": "Finance"},
+    "E002": {"name": "Bob", "department": "IT"},
+    "E003": {"name": "Charlie", "department": "HR"}
+}
+
+
+sample output:
+
+Alice  Finance
+Bob    IT
+
+
+################################# task17 #######################
+Write a program to print all product names and prices.
+
+products = [
+    {"id": 101, "name": "Laptop", "price": 75000},
+    {"id": 102, "name": "Mobile", "price": 25000},
+    {"id": 103, "name": "Tablet", "price": 15000}
+]
+
+
+################################# task18 #######################
+Write a program to show student names with grades.
+
+students = [
+    {"id": 1, "name": "John", "marks": {"math": 80, "science": 75}},
+    {"id": 2, "name": "Jane", "marks": {"math": 90, "science": 85}}
+]
+
+
+
+################################# task19 #######################
+
+Write a program to print team names and player names.
+
+teams = {
+    "TeamA": [
+        {"name": "Alice", "role": "Batsman"},
+        {"name": "Bob", "role": "Bowler"}
+    ],
+    "TeamB": [
+        {"name": "Charlie", "role": "Allrounder"},
+        {"name": "Dave", "role": "Wicketkeeper"}
+    ]
+}
+
+################################# task20 #######################
+
+
+
+Write a program to list customers with balance over 10000.
+
+
+customers = {
+    "C001": {"name": "Alice", "balance": 5000},
+    "C002": {"name": "Bob", "balance": 12000},
+    "C003": {"name": "Charlie", "balance": 3000}
+}
+
+###############################################################
+
+
+data = {
+    'Sales': {
+        'North': {
+            'Alice': 'Manager',
+            'Bob': 'Sales Executive',
+            'Eve': 'Sales Coordinator',
+            'John': 'Account Manager'
+        },
+        'South': {
+            'Charlie': 'Sales Executive',
+            'Grace': 'Regional Sales Manager',
+            'Mallory': 'Business Development Associate'
+        },
+        'West': {
+            'Oscar': 'Sales Executive',
+            'Peggy': 'Account Executive',
+            'Victor': 'Territory Sales Manager'
+        }
+    },
+    'Marketing': {
+        'Digital': {
+            'David': 'SEO Specialist',
+            'Hannah': 'Content Strategist',
+            'Irene': 'Social Media Manager'
+        },
+        'Offline': {
+            'Eve': 'Event Coordinator',
+            'Jake': 'Brand Manager',
+            'Liam': 'Public Relations Specialist'
+        },
+        'Research': {
+            'Mia': 'Market Research Analyst',
+            'Noah': 'Customer Insights Manager'
+        }
+    },
+    'IT': {
+        'Infrastructure': {
+            'Quinn': 'Network Engineer',
+            'Riley': 'System Administrator',
+            'Sam': 'Cloud Architect'
+        },
+        'Development': {
+            'Tina': 'Software Engineer',
+            'Uma': 'Backend Developer',
+            'Walter': 'Full Stack Developer'
+        }
+    },
+    'HR': {
+        'Recruitment': {
+            'Yara': 'Recruitment Specialist',
+            'Zane': 'Talent Acquisition Manager',
+            'Nina': 'HR Coordinator'
+        },
+        'Employee Relations': {
+            'Oliver': 'Employee Relations Specialist',
+            'Sophia': 'HR Business Partner'
+        }
+    },
+    'Finance': {
+        'Accounting': {
+            'Xander': 'Accountant',
+            'Yvette': 'Accounts Payable Specialist',
+            'Zara': 'Financial Analyst'
+        },
+        'Audit': {
+            'Luna': 'Internal Auditor',
+            'Mason': 'Compliance Officer'
+        }
+    }
+}
+
+
+write a program to display the below output:
+
+
+Sales
+-----
+North
+South
+West
+
+
+Marketing
+--------
+Digital
+Offline
+Research
+
+
+IT
+---
+Infrasturcture
+Development
+
+HR
+---
+Recruitment
+Employee Relations
 
