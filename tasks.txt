@@ -336,6 +336,15 @@ Digital
 Offline
 Research
 
+IT
+---
+Infrasturcture
+Development
+
+HR
+---
+Recruitment
+Employee Relations
 
 
 
@@ -359,14 +368,12 @@ State-gov
 Private
 Self-emp-not-inc
 
-IT
----
-Infrasturcture
-Development
 
-HR
----
-Recruitment
-Employee Relations
+##############################################
+
+write a program to read employees.txt and display the count of each workclass
+State-gov        1 time
+Self-emp-not-inc 1 time
+Private          5 times
 
 
