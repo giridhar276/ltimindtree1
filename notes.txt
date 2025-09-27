@@ -1,6 +1,4 @@
-
-
-
+ 	
 c datatypes
 ------------------
 int a = 10;
@@ -314,6 +312,98 @@ fixed arguments
 default arguments
 keyword arguments
 variable length arguments
+
+
+
+#include<stdio.h>
+#include<math.h>
+#include<ctype.h>
+#include<conio.h>
+#include<time.h>
+#include<graphics.h>
+#include<datetime.h>
+#include<stdlib.h>
+#include<string.h>
+#include<boolean.h>
+
+
+
+python
+---------
+
+www.pypi.org ----> repo of all the third party libraries
+
+
+
+
+libraries in python
+--------------------
+there are 2 types of libraries
+1. builtin libraries
+---------------------
+When python is installed, all the builtin libraries which are generally used are installed with python.
+
+In IDLE    :   3000+ libraries are installed with python
+In Anaconda:   10000+ libraries are intalled in anaconda IDE
+
+2. third party library
+-------------------------
+Depending on your requirement , developer has to install third party library from www.pypi.org using pip tool. 
+
+requirement 
+------------
+analytics
+networking
+security
+data science
+testing
+GUI tools
+web scrapping
+automation ( test , system , server , network , web, GUI tools , report , excel , cloud)
+
+
+project/requirement =    core programming  +    libraries    + domain 
+                         ( procedural/oop)
+
+
+
+library | module | routines | packages 
+---------------------------------------
+Every library contains methods
+
+
+linux                python
+-------------------------------------------
+rm -rf		os.remove(file)  os.unlink(file) 
+pwd             os.getcwd()
+cp s d          shutil.copy(file,path)  ( shell utilities )
+whoami          os.getlogin()
+ls              os.listdir(), os.walk() , os.scandir()
+date            datetime.datetime.now()  , time.time()   , time.ctime()
+free            cpu utilization :      psutil.cpu_percent()    ( python system utilities )
+du/df           memory utilization:
+top
+
+
+
+** Never save the program names with  functionnames, keyword, methods , librarynames
+
+DONT save the file with    print.py
+DONT save the file with    append.py
+DONT save the file with    range.py
+DONT save the file with    list.py
+DONT save the file with      if.py
+DONT save the file with      else.py
+DONT save the file with      for.py
+DONT save the file with     os.py
+DONT save the file with     random.py
+DONT save the file with     shutil.py
+DONT save the file with      psutil.py
+
+
+
+
+
 
 
 
