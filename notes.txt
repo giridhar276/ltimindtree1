@@ -1,4 +1,6 @@
 
+
+
 c datatypes
 ------------------
 int a = 10;
@@ -141,6 +143,184 @@ comment
 
 
 
+file handling
+--------------------
+
+txt
+exe
+xlsx
+pdf
+csv
+jpeg
+png
+docx
+pptx
+log
+conf
+repo
+env
+json
+xml
+html
+ext4
+xfs
+bat
+h
+zip
+rar
+tar
+tar.gz
+7z
+mp3
+mp4
+dat
+mkv
+mov
+parqueet
+gzip
+
+
+
+
+
+working with flat files  ( log  txt  csv  conf  )
+------------------------
+- We dont need anything tool to open this.
+
+
+opening the file
+-------------------
+read mode
+write mode
+append mode
+
+syntax:   object = open(filename , mode)
+example:    fobj = open("clients.txt","r")
+	    case1: file should exist to read the file
+
+	    fobj = open("clients.txt","w") 
+	    case1: if file is not found... file gets created first
+            case2: if file is already existing.. it overwrites the existing content
+
+	    fobj = open("clients.txt","a") 
+	    case1: if file is not found... file gets created first
+            case2: if file is already existing.. it appendsthe new data to the file
+
+closing the file
+-------------------
+fobj.close()
+
+
+read operation
+-----------------
+1. reading the file line by line
+2. fobj.readlines()    -------> will return list
+3. fobj.read()         -------> will return string
+4. using csv library
+5. using pandas library
+
+
+write operation
+----------------
+
+fobj.write()
+fobj.writelines()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+working with third party files  ( pdf  pptx  docx  xlsx mp4  )
+---------------------------------
+Depending on the type of file , we need to install the library from www.pypi.org
+
+
+Basically we have 2 types of errors.
+
+1. syntax error
+2. semantic error or runtime error or logical error.
+
+
+Handling errors that occurs during runtime is knonn as 
+exception handling.
+
+
+exception handling
+----------------------
+try
+except 
+else
+finally
+raise
+
+
+
+
+
+
+
+
+display all the list of exceptions  and builtin functions?
+-----------------------------------------------------
+
+print(dir(__builtins__))   #list of exceptions  and builtin functions?
+
+
+function | definition | block | subroutine | submodule
+-------------------------------------------------------
+- reusability
+- define the block once and call it for multiple times
+
+
+There are 2 types of functions 
+
+1. builtin functions
+2. user defined functions
+
+
+C style   ( call by value and call by reference)
+-------
+
+int add(int a,int b)
+{
+	int c = a + b;
+        return c;
+}
+total = add(10,20);
+
+python style   ( call by object )
+---------------
+def add(a,b):
+   c = a + b
+   return c
+
+total = add(10,20);
+
+
+different ways of passing arguments
+-------------------------------------
+fixed arguments
+default arguments
+keyword arguments
+variable length arguments
+
+
+
+
+
+
+
 
 
 
@@ -155,10 +335,6 @@ comment
 
 
     
-
-
-
-
 
 
 
