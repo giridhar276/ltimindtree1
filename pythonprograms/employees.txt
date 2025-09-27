@@ -1,0 +1,8 @@
+age,workclass,education
+39,State-gov,,Bachelors
+50,Self-emp-not-inc,Bachelors
+38,Private,HS-grad,9
+53,Private,11th
+28,Private,Bachelors
+37,Private,Masters
+49,Private,9th

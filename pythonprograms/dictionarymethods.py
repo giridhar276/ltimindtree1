@@ -25,8 +25,13 @@ print(book.keys())
 for key in book.keys():
     print(key)
 
+
+book = {"chap1":10 ,"chap2": 20 ,"chap3":30 ,"chap1":100 }
 for key in book:
     print(key)
+
+
+    
 ####################################
 # display values
 print(book.values())

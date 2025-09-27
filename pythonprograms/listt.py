@@ -1,0 +1,11 @@
+l1 = [1,13,12,14,15]
+print(l1.pop(1))
+l1.append(16)
+print(l1)
+l1.insert(2,20)
+print(l1)
+l1.extend([40,50])
+print(l1)
+l1.sort()
+print(l1)
+print(l1.count(1))
