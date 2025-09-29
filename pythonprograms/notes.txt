@@ -1,3 +1,8 @@
+
+
+mutable objects :   list  dictionary set
+immutable objects:   number  string  tuple
+
  	
 c datatypes
 ------------------
@@ -10,6 +15,13 @@ short
 
 python - objects
 ------------------------
+Everything in python is object.
+Every object contains methods.
+
+
+
+alist  = [10,20,30]
+alist
 
 
 number
@@ -428,12 +440,44 @@ DONT save the file with      psutil.py
 
 
 
+Procedural programming
+
+object oriented programming - global concepts in all the languages
+-----------------------------
+- code usability
 
 
 
+OOP
+-----
+
+class
+-----
+blueprint of real world entity/ model
+every class contains data methods(functions) and attributes(variables)
+
+object
+--------
+instance of the class.( alist = [10,20,30]  alist is the object.it is instance of class List)
+
+self
+----
+self is the instance of the object.
+
+
+constructor
+---------------
+constructor is invoked automatically when object is created.
+constructor in python begins with __init__()
 
 
 
+abstraction
+escapsulation
+inheritance
+polymorphism
+- function overloading
+- operator overloading
 
 
 
